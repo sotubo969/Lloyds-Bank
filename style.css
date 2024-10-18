@@ -1,0 +1,213 @@
+.card {
+  width: 360px;
+  height: 220px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 12px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.bank-name {
+  font-size: 26px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bank-logo {
+  display: cover;
+  width: 250px;
+  height: 120px;
+  margin-top: 2px;
+  margin-left: 60px;
+
+}
+
+.card-number {
+  font-size: 18px;
+  text-align: center;
+  margin: -70px 0;
+}
+.valid{
+  position: absolute;
+  font-size: 12px;
+  bottom: 19%;
+  left: 10%;
+}
+.valids {
+  position: absolute;
+  bottom: 10%;
+  left: 19%;
+}
+.expire {
+  position: absolute;
+  font-size: 12px;
+  bottom: 19%;
+  left: 42%;
+}
+.expires {
+  position: absolute;
+  bottom: 10%;
+  left: 49%;
+}
+.name {
+  position: absolute;
+  bottom: 3.5%;
+  font-size: 15px;
+  left: 12%;
+  letter-spacing: 3px;
+}
+.short {
+  position: absolute;
+  left: 12%;
+  bottom: -12px;
+}
+.acc {
+  position: absolute;
+  left: 42%;
+  bottom: -12px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.card-back {
+  width: 360px;
+  height: 220px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 12px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.magnetic-stripe {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+}
+
+.Author {
+  font-size: 13px;
+  position: absolute;
+  bottom: 133px;
+  left: 25px;
+
+}
+.num {
+  position: absolute;
+  top: 38%;
+  right: 25%;
+  transform: translate(50%, -50%);
+}
+
+.nums{
+  font-size: 13px;
+  position: absolute;
+  top: 52%;
+  right: 25%;
+  transform: translate(50%, -50%);
+}
+.card-signature {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 132px;
+  left: -11px;
+}
+.cvv{
+  position: absolute;
+  width: 50%;
+  height: 30px;
+  right: 10%;
+  top: 40%;
+}
+
+.card-back .magnetic-stripe {
+  width: 100%;
+  height: 32px;
+  background-color: black;
+  margin: 12px auto;
+}
+
+.card-back .card-signature {
+  width: 100%;
+  height: 0%;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.card-inner:hover {
+  transform: rotateY(180deg);
+  transition: 1s;
+}
+
+/* back */
+
+
+.card-back-details {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+.dove {
+  position: absolute;
+  bottom: 15%;
+  left: 4%;
+}
+div h6 {
+  position: absolute;
+  bottom: 18%;
+  left: 16%;
+}
+.dot{
+  position: absolute;
+  left: 12%;
+  letter-spacing: -1px;
+  list-style-type: square;
+  bottom: 5%;
+  font-size: 13px;
+}
+.link {
+  position: absolute;
+  bottom: -4%;
+  left: 1%;
+  font-size: 10px;
+}
+.small {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  font-size: 7px;
+}
